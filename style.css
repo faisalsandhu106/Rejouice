@@ -11,7 +11,7 @@ html,body{
     height: 100%;
 }
 
-/*-------------------------------------------Desktop For Responsiveness--------------------------------------------------*/
+/*-------------------------------------------Desktop Responsiveness--------------------------------------------------*/
 
 @media screen {
     nav{
@@ -26,7 +26,7 @@ html,body{
 
 nav marquee{
     display: flex;
-    padding: 2.3vh 0px;
+    padding: 2vh 0px;
     width: 100%;
     background-color: #EDEDED;
 }
@@ -765,9 +765,9 @@ footer{
     
 }
 
-/*-----*/
+/*-------------------------------------------Desktop Responsiveness--------------------------------------------------*/
 
-/*-------------------------------------------Mobile For Responsiveness----------------------------------------------------*/
+/*-------------------------------------------Mobile Responsiveness----------------------------------------------------*/
 
 @media only screen and (max-width:600px){
     html,body{
@@ -925,14 +925,7 @@ footer{
     }
     
     .search-bar{ 
-        margin-left: 90px;
-        padding: 7px 15px 7px 3px;
-        border-radius: 10px;
-    }
-    
-    .search-bar span,i{
-        margin-left: 7px;
-        font-size: 3.8vw;
+        display: none;
     }
     
     .navbar ul button{
@@ -1445,7 +1438,7 @@ footer{
 /*-------------------------------------------Mobile Responsiveness-----------------------------------------------------*/
 
 
-/*-------------------------------------------Mini Tab For Responsiveness----------------------------------------------------*/
+/*-------------------------------------------Mini Tab Responsiveness----------------------------------------------------*/
 
 @media only screen and (max-width:950px){
     html,body{
@@ -1604,13 +1597,18 @@ footer{
     
     .search-bar{ 
         margin-left: 90px;
-        padding: 7px 15px 7px 3px;
-        border-radius: 10px;
+        padding: 9px 50px 9px 4px;
+        border-radius: 7px;
+        font-size: 15px;
     }
     
-    .search-bar span,i{
-        margin-left: 7px;
-        font-size: 3.8vw;
+    .search-bar span{
+        margin-left: 25px;
+        font-size: 3.6vw;
+    }
+
+    .search-bar i{
+        font-size: 3.6vw;
     }
     
     .navbar ul button{
